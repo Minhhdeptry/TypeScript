@@ -55,4 +55,25 @@ union = 10;
 // Literal type: chỉ định giá trị cụ thể
 let literal : "success" | "failed" | "Error";
 literal = "success";
+literal = "Error";
 // literal = "Loading"; : Lỗi
+
+
+// 8. Null và Undefined
+// null: giá trị rỗng ( ko có gì)
+// undefined: biến chưa được gán giá trị
+
+const datas : {
+    id: number,
+    title: string,
+    description: string | null,
+    time: number | undefined,
+} = {
+    id: 1,
+    title: "Learn English",
+    description: null,
+    time: undefined
+}
+
+datas.description; // null
+datas.time; // undefined
