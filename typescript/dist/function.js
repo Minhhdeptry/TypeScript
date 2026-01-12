@@ -1,11 +1,11 @@
 "use strict";
 // Function có return, params
-function add(a, b) {
+function add1(a, b) {
     return a + b;
 }
 const addResult = (a, b) => a + b;
-console.log(add(2, 3)); // 5
-console.log(add(5, 6)); // 11
+console.log(add1(2, 3)); // 5
+console.log(add1(5, 6)); // 11
 // add(undefined, null)  // lỗi: ko nhận undefinded
 // Function ko có return: kiểu void
 function logMessage(message) {

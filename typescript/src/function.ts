@@ -1,11 +1,11 @@
 // Function có return, params
-function add(a: number,b: number){
+function add1(a: number,b: number){
     return a + b
 }
 
 const addResult = (a: number, b: number) => a+b;
-console.log(add(2,3)); // 5
-console.log(add(5,6)); // 11
+console.log(add1(2,3)); // 5
+console.log(add1(5,6)); // 11
 
 // add(undefined, null)  // lỗi: ko nhận undefinded
 
