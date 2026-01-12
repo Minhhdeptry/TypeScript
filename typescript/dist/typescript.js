@@ -50,3 +50,12 @@ const datas = {
 };
 datas.description; // null
 datas.time; // undefined
+// 9. Unknown và Any
+let input = "Hello";
+// input.toLowerKey() // error
+// hay gặp try catch axios => (error: unknow) {as Axioserror}: message
+// 10. Type Assertions
+let value = "Hello world";
+let strLength = value.length;
+// hoặc sử dụng
+let strLength1 = value.length;

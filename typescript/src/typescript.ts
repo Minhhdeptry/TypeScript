@@ -67,7 +67,7 @@ const datas : {
     id: number,
     title: string,
     description: string | null,
-    time: number | undefined,
+    time?: number | undefined,
 } = {
     id: 1,
     title: "Learn English",
@@ -77,3 +77,16 @@ const datas : {
 
 datas.description; // null
 datas.time; // undefined
+
+
+// 9. Unknown và Any
+let input: unknown = "Hello";
+// input.toLowerKey() // error
+// hay gặp try catch axios => (error: unknow) {as Axioserror}: message
+
+
+// 10. Type Assertions
+let value : string = "Hello world";
+let strLength : number = (value as string).length;
+// hoặc sử dụng
+let strLength1 : number = (<string>value).length;

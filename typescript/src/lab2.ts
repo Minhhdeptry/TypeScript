@@ -30,9 +30,9 @@ type Product = {
 
 let listProducts : Product[] = [
     {name: "Laptop", price: 10, sale: true, rate: Rate.low, description: null},
-    {name: "Iphone", price: 20, sale: false, rate: Rate.medium, description: "Không có mô ta"},
+    {name: "Iphone", price: 20, sale: false, rate: Rate.medium, description: null},
     {name: "Tai nghe", price: 3, sale: true, rate: Rate.hight, description: null},
-    {name: "Bàn phím", price: 4, sale: false, rate: Rate.low, description: "abc"},
+    {name: "Bàn phím", price: 4, sale: false, rate: Rate.low, description: null},
     {name: "Chuột không dây", price: 5, sale: true, rate: Rate.hight, description: null}
 ]
 
